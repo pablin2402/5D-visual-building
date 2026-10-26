@@ -1,0 +1,242 @@
+{
+ "version": 1,
+ "stores": [
+  {
+   "id": "kreamac",
+   "name": "Kreamac",
+   "tagline": "Diseño & Tecnología",
+   "desc": "Empresa familiar boliviana desde 2018: grifería, duchas, inodoros, lavamanos, espejos, accesorios, tinas, lavaplatos, basureros y electrodomésticos.",
+   "brands": [
+    "Ferrara",
+    "Clever",
+    "Tres",
+    "Nobili",
+    "Tramontina",
+    "Zagonel"
+   ],
+   "whatsapp": "59161794002",
+   "sucursales": [
+    {
+     "ciudad": "Cochabamba",
+     "direccion": "Av. Humboldt #619, entre Puente Cobija y calle G. Poma, Complejo Novita Center",
+     "telefono": "+591 61794002"
+    },
+    {
+     "ciudad": "Santa Cruz",
+     "direccion": "Av. La Salle #2453 entre Torre López y Sarmiento, entre segundo y tercer anillo",
+     "telefono": "+591 77995320"
+    }
+   ],
+   "horario": "Lun a vie 9:00–13:00 y 14:30–18:30 · Sáb 9:00–13:00",
+   "fuente": "Catálogo Kreamac 2026 · Inodoros"
+  }
+ ],
+ "products": [
+  {
+   "id": "ferrara-parma-a2096",
+   "store": "kreamac",
+   "brand": "Ferrara",
+   "ref": "A2096",
+   "name": "Inodoro 1 pieza Parma doble descarga blanco",
+   "type": "toilet",
+   "category": "Inodoros",
+   "model": "bl-ferrara-parma-a2096",
+   "medidas": {
+    "ancho": 350,
+    "fondo": 640,
+    "alto": 730,
+    "asiento": 430
+   },
+   "features": [
+    "Doble descarga",
+    "1000 g de empuje",
+    "Tapa con caída lenta",
+    "Tapa de fácil instalación"
+   ],
+   "price": null,
+   "currency": "Bs",
+   "page": null
+  },
+  {
+   "id": "ferrara-lacio-a2022",
+   "store": "kreamac",
+   "brand": "Ferrara",
+   "ref": "A2022",
+   "name": "Inodoro 1 pieza Lacio doble descarga",
+   "type": "toilet",
+   "category": "Inodoros",
+   "model": "bl-ferrara-lacio-a2022",
+   "medidas": {
+    "ancho": 370,
+    "fondo": 680,
+    "alto": 750,
+    "asiento": 430
+   },
+   "features": [
+    "Doble descarga",
+    "1000 g de empuje",
+    "Tapa con caída lenta",
+    "Tapa de fácil instalación"
+   ],
+   "price": null,
+   "currency": "Bs",
+   "page": null
+  },
+  {
+   "id": "ferrara-salento-o382ymb",
+   "store": "kreamac",
+   "brand": "Ferrara",
+   "ref": "O-382Y-MB",
+   "name": "Inodoro 1 pieza Salento doble descarga negro mate",
+   "type": "toilet",
+   "category": "Inodoros",
+   "model": "bl-ferrara-salento-o382ymb",
+   "medidas": {
+    "ancho": 370,
+    "fondo": 680,
+    "alto": 750,
+    "asiento": 430
+   },
+   "features": [
+    "Doble descarga",
+    "1000 g de empuje",
+    "Tapa con caída lenta",
+    "Tapa de fácil instalación"
+   ],
+   "price": null,
+   "currency": "Bs",
+   "page": null
+  },
+  {
+   "id": "ferrara-duomo-a2224",
+   "store": "kreamac",
+   "brand": "Ferrara",
+   "ref": "A2224",
+   "name": "Inodoro 1 pieza Duomo doble descarga blanco",
+   "type": "toilet",
+   "category": "Inodoros",
+   "model": "bl-ferrara-duomo-a2224",
+   "medidas": {
+    "ancho": 370,
+    "fondo": 680,
+    "alto": 760,
+    "asiento": 440
+   },
+   "features": [
+    "Doble descarga",
+    "1000 g de empuje",
+    "Tapa con caída lenta",
+    "Tapa de fácil instalación"
+   ],
+   "price": null,
+   "currency": "Bs",
+   "page": null
+  },
+  {
+   "id": "ferrara-roma-a8170",
+   "store": "kreamac",
+   "brand": "Ferrara",
+   "ref": "A8170",
+   "name": "Inodoro 1 pieza Roma doble descarga blanco",
+   "type": "toilet",
+   "category": "Inodoros",
+   "model": "bl-ferrara-roma-a8170",
+   "medidas": {
+    "ancho": 370,
+    "fondo": 680,
+    "alto": 730,
+    "asiento": 430
+   },
+   "features": [
+    "Doble descarga",
+    "1000 g de empuje",
+    "Tapa con caída lenta",
+    "Tapa de fácil instalación"
+   ],
+   "price": null,
+   "currency": "Bs",
+   "page": null
+  },
+  {
+   "id": "ferrara-savona-o2183",
+   "store": "kreamac",
+   "brand": "Ferrara",
+   "ref": "O-2183",
+   "name": "Inodoro 1 pieza Savona doble descarga blanco",
+   "type": "toilet",
+   "category": "Inodoros",
+   "model": "bl-ferrara-savona-o2183",
+   "medidas": {
+    "ancho": 430,
+    "fondo": 750,
+    "alto": 750,
+    "asiento": 420
+   },
+   "features": [
+    "Doble descarga",
+    "1000 g de empuje",
+    "Tapa con caída lenta",
+    "Tapa de fácil instalación"
+   ],
+   "price": null,
+   "currency": "Bs",
+   "page": null
+  },
+  {
+   "id": "ferrara-vicenza-a2606",
+   "store": "kreamac",
+   "brand": "Ferrara",
+   "ref": "A2606",
+   "name": "Inodoro suspendido Vicenza blanco + tanque de empotrar R032A + pulsador cromado 21CP",
+   "type": "toilet",
+   "category": "Inodoros",
+   "model": "bl-ferrara-vicenza-a2606",
+   "medidas": {
+    "ancho": 365,
+    "fondo": 490,
+    "alto": 370
+   },
+   "features": [
+    "Doble descarga",
+    "1000 g de empuje",
+    "Tapa con caída lenta",
+    "Tapa de fácil instalación"
+   ],
+   "price": null,
+   "currency": "Bs",
+   "page": null,
+   "incluye": [
+    "Tanque de empotrar doble descarga R032A",
+    "Pulsador cromado 21CP"
+   ]
+  },
+  {
+   "id": "ferrara-vicenza-a2606lb",
+   "store": "kreamac",
+   "brand": "Ferrara",
+   "ref": "A2606LB",
+   "name": "Inodoro suspendido Vicenza negro + tanque de empotrar R032A + pulsador negro mate 21MB",
+   "type": "toilet",
+   "category": "Inodoros",
+   "model": "bl-ferrara-vicenza-a2606lb",
+   "medidas": {
+    "ancho": 365,
+    "fondo": 490,
+    "alto": 370
+   },
+   "features": [
+    "Doble descarga",
+    "1000 g de empuje",
+    "Tapa con caída lenta",
+    "Tapa de fácil instalación"
+   ],
+   "price": null,
+   "currency": "Bs",
+   "page": null,
+   "incluye": [
+    "Tanque de empotrar doble descarga R032A",
+    "Pulsador negro mate 21MB"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,413 @@
+
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+  <symbol id="i-walk" viewBox="0 0 24 24"><circle cx="13" cy="4.5" r="1.8"/><path d="M9.5 21l2.2-6.5L14 17v4M8 11.5l2.5-3 3.5.5 2 3 2 1M11.7 14.5l-.7-3.5"/></symbol>
+  <symbol id="i-sofa" viewBox="0 0 24 24"><path d="M5 11V8.5A2.5 2.5 0 0 1 7.5 6h9A2.5 2.5 0 0 1 19 8.5V11M2.5 18v-4.5a2 2 0 0 1 4 0V15h11v-1.5a2 2 0 0 1 4 0V18zM5 18v2M19 18v2"/></symbol>
+  <symbol id="i-swatch" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1"/><rect x="13.5" y="3.5" width="7" height="7" rx="1"/><rect x="3.5" y="13.5" width="7" height="7" rx="1"/><rect x="13.5" y="13.5" width="7" height="7" rx="1"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1.2 12H6.2zM9 8V6.5a3 3 0 0 1 6 0V8"/></symbol>
+  <symbol id="i-frame" viewBox="0 0 24 24"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+  <symbol id="i-rotl" viewBox="0 0 24 24"><path d="M4 4v5h5M5 9a8 8 0 1 1-1 4"/></symbol>
+  <symbol id="i-rotr" viewBox="0 0 24 24"><path d="M20 4v5h-5M19 9a8 8 0 1 0 1 4"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2"/><path d="M15.5 8.5V6.5a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h2"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16zM13.5 6.5l4 4"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5zM4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></symbol>
+  <symbol id="i-msg" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+  <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9zM4 7.5l8 4.5 8-4.5M12 12v9"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 8v5M12 16.5v.5"/><circle cx="12" cy="12" r="9"/></symbol>
+  <symbol id="i-cortina" viewBox="0 0 24 24"><path d="M3 4h18M5 4v16M19 4v16M5 4c1.5 3 2.5 6 2.5 16M19 4c-1.5 3-2.5 6-2.5 16M9.5 4c0 5 .5 10 1 16M14.5 4c0 5-.5 10-1 16"/></symbol>
+  <symbol id="i-techo" viewBox="0 0 24 24"><path d="M3 5h18M5 5v4h14V5M8 9v2h8V9M7 13.5l-1.5 2M12 13.5v2.5M17 13.5l1.5 2M4 20h16"/></symbol>
+  <symbol id="i-window" viewBox="0 0 24 24"><rect x="4" y="3.5" width="16" height="17" rx="1"/><path d="M12 3.5v17M4 12h16"/></symbol>
+  <symbol id="i-door" viewBox="0 0 24 24"><path d="M5 21V4.5A1.5 1.5 0 0 1 6.5 3h11A1.5 1.5 0 0 1 19 4.5V21M3 21h18M15 12.5v.5"/></symbol>
+  <symbol id="i-estructura" viewBox="0 0 24 24"><path d="M5 21V5M12 21V5M19 21V5M3 5h18M3 12h18M3 19h18"/></symbol>
+  <symbol id="i-facade" viewBox="0 0 24 24"><path d="M4 21V5.5L12 3l8 2.5V21M3 21h18M7.5 8.5h3v3h-3zM13.5 8.5h3v3h-3zM7.5 14.5h3v3h-3zM13.5 14.5h3V21h-3z"/></symbol>
+  <symbol id="i-zocalo" viewBox="0 0 24 24"><path d="M4 3v14h16M4 13h9.5a1.5 1.5 0 0 1 1.5 1.5V17M3 21h18"/></symbol>
+  <symbol id="i-floor" viewBox="0 0 24 24"><path d="M3 6h18v12H3zM3 10h18M3 14h18M10 6v4M16 10v4M7 14v4M18 14v4"/></symbol>
+  <symbol id="i-ropero" viewBox="0 0 24 24"><path d="M5 3h14v17H5zM12 3v13M5 16h14M10.5 9v2M13.5 9v2M6 20v1.5M18 20v1.5"/></symbol>
+  <symbol id="i-plan" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 12h7v8M11 4v5h9"/></symbol>
+</svg>
+
+<div class="app">
+  <div class="stage" id="stage">
+    <div class="loading" id="loading">Cargando modelo…</div>
+    <header class="hud">
+      <h1 id="pname">Edificio Peredo Rivas</h1>
+      <p id="psub">Zona Hipódromo · Cochabamba</p>
+      <p class="crumb" id="crumb"></p>
+    </header>
+    <div class="hint" id="hint" hidden></div>
+
+    <aside class="drawer" id="furnPanel" hidden aria-labelledby="furnTitle">
+      <div class="drawer-head"><h2 id="furnTitle">Amueblar</h2><button class="btn ghost icon" id="furnClose" type="button" aria-label="Cerrar Amueblar"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-sub">
+        <p class="note" id="furnNote" aria-live="polite">Elegí un mueble y tocá el piso para colocarlo. Tocá un mueble colocado para moverlo, girarlo o escalarlo.</p>
+        <div class="cats" id="furnCats" role="tablist" aria-label="Categorías de muebles"></div>
+      </div>
+      <div class="drawer-body" id="furnBody">
+        <div id="furnGrid"></div>
+        <label class="tg" for="hideAuto"><input type="checkbox" id="hideAuto"> Ocultar los muebles automáticos de este piso</label>
+      </div>
+    </aside>
+
+    <aside class="drawer" id="finPanel" hidden aria-labelledby="finTitle">
+      <div class="drawer-head"><h2 id="finTitle">Acabados</h2><button class="btn ghost icon" id="finClose" type="button" aria-label="Cerrar Acabados"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body">
+        <p class="note" id="finNote">Elegí un ambiente (o tocalo en el piso) y probá terminaciones. No cambia la distribución ni las medidas.</p>
+        <label class="field" for="finRoom">Ambiente<select id="finRoom"></select></label>
+        <div class="seg" role="group" aria-label="Superficie"><button type="button" data-surf="piso" aria-pressed="true">Piso</button><button type="button" data-surf="pared" aria-pressed="false">Paredes</button></div>
+        <div id="finGrid"></div>
+        <div class="row"><button class="btn" id="finAB" type="button" disabled>Comparar A/B</button><button class="btn ghost" id="finUndo" type="button">Original</button><button class="btn ghost" id="finUndoAll" type="button">Restaurar todo</button></div>
+        <div>
+          <details class="disc" id="finVarBox"><summary>Variantes de diseño<svg class="ico"><use href="#i-chev"/></svg></summary>
+            <div class="disc-body">
+              <div class="row"><select id="finVar" aria-label="Variantes guardadas" style="flex:1"><option value="">Sin variante</option></select><button class="btn" id="finVarApply" type="button">Aplicar</button></div>
+              <div class="row" id="finSaveRow"><input id="finVarName" type="text" placeholder="Nombre, ej. Opción nogal" aria-label="Nombre de la variante" style="flex:1;min-width:0"><button class="btn primary" id="finVarSave" type="button">Guardar variante</button></div>
+            </div>
+          </details>
+          <details class="disc" id="finAdv"><summary>Opciones avanzadas<svg class="ico"><use href="#i-chev"/></svg></summary>
+            <div class="disc-body">
+              <div id="finBound" hidden><p class="sub-h">Límite de la cerámica</p><p class="note" id="finBoundInfo"></p>
+                <div class="row" style="margin-top:8px"><button class="btn" id="finBoundDraw" type="button">Marcar límite</button><button class="btn danger" id="finBoundClear" type="button">Quitar límite manual</button></div></div>
+              <label class="tg" for="finDiag" id="finDiagL" hidden><input type="checkbox" id="finDiag"> Ver diagnóstico de ambientes</label>
+              <div id="finPerm" hidden><p class="sub-h">Permisos del cliente</p>
+                <label class="tg" for="permFloors"><input type="checkbox" id="permFloors"> Puede cambiar pisos</label>
+                <label class="tg" for="permWalls"><input type="checkbox" id="permWalls"> Puede cambiar paredes</label></div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </aside>
+
+    <aside class="drawer" id="prodPanel" hidden aria-labelledby="prodTitle">
+      <div class="drawer-head"><h2 id="prodTitle">Productos de tiendas</h2><button class="btn ghost icon" id="prodClose" type="button" aria-label="Cerrar Productos"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body">
+        <p class="note" id="prodNote">Elegí qué producto querés ver en tu departamento y pedí la cotización directo a la tienda.</p>
+        <div class="filters"><label class="field" for="prodCat">Categoría<select id="prodCat"></select></label><label class="field" for="prodStore">Tienda<select id="prodStore"></select></label></div>
+        <div class="plist" id="prodList"><p class="note">Cargando productos…</p></div>
+        <div class="quote">
+          <p class="sub-h" id="quoteH">Mi cotización</p>
+          <div id="prodQuote"></div>
+        </div>
+        <div class="stats-shop" id="prodStats" hidden></div>
+      </div>
+    </aside>
+
+    <aside class="drawer" id="winPanel" hidden aria-labelledby="winTitle">
+      <div class="drawer-head"><h2 id="winTitle">Ventanas</h2><button class="btn ghost icon" id="winClose" type="button" aria-label="Cerrar Ventanas"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body">
+        <p class="note" id="winNote"></p>
+        <p class="sub-h">Tipo de vidrio</p>
+        <div class="tiles three" id="winGlass"></div>
+        <p class="sub-h">Color del marco</p>
+        <div class="tiles three" id="winFrame"></div>
+        <label class="tg" for="winBath"><input type="checkbox" id="winBath"> Baños con vidrio esmerilado (privacidad)</label>
+        <p class="note" id="winSum" style="color:var(--ink)"></p>
+        <div class="row"><button class="btn primary" id="winDef" type="button" hidden>Usar para todo el edificio</button><button class="btn ghost" id="winReset" type="button" hidden>Volver al predeterminado</button></div>
+      </div>
+    </aside>
+
+    <aside class="drawer" id="doorPanel" hidden aria-labelledby="doorTitle">
+      <div class="drawer-head"><h2 id="doorTitle">Marcos de puerta</h2><button class="btn ghost icon" id="doorClose" type="button" aria-label="Cerrar Marcos de puerta"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body">
+        <p class="note" id="doorNote"></p>
+        <p class="sub-h">Estilo</p>
+        <div class="tiles three" id="doorStyle"></div>
+        <p class="sub-h">Color y acabado</p>
+        <div class="tiles three" id="doorColor"></div>
+        <p class="sub-h">Material</p>
+        <div class="tiles four" id="doorMat"></div>
+        <p class="note" id="doorSum" style="color:var(--ink)"></p>
+        <div class="row"><button class="btn primary" id="doorDef" type="button" hidden>Usar para todo el edificio</button><button class="btn ghost" id="doorReset" type="button" hidden>Volver al predeterminado</button></div>
+      </div>
+    </aside>
+
+    <aside class="drawer" id="facPanel" hidden aria-labelledby="facTitle">
+      <div class="drawer-head"><h2 id="facTitle">Fachada</h2><button class="btn ghost icon" id="facClose" type="button" aria-label="Cerrar Fachada"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body">
+        <p class="note" id="facNote"></p>
+        <p class="sub-h">Color</p>
+        <div class="tiles four fac-colors" id="facColor"></div>
+        <label class="fac-own" for="facPick"><input type="color" id="facPick" value="#d9c6a5"><span>Otro color</span></label>
+        <p class="sub-h">Textura</p>
+        <div class="tiles three" id="facTex"></div>
+        <p class="sub-h">Bandas entre pisos</p>
+        <div class="seg" role="group" aria-label="Bandas entre pisos" id="facBand"></div>
+        <p class="note" id="facSum"></p>
+        <div class="row"><button class="btn primary" id="facDef" type="button" hidden>Usar para todo el edificio</button><button class="btn ghost" id="facReset" type="button" hidden>Volver al predeterminado</button></div>
+      </div>
+    </aside>
+    <aside class="drawer" id="cortPanel" hidden aria-labelledby="cortTitle">
+      <div class="drawer-head"><h2 id="cortTitle">Cortinas</h2><button class="btn ghost icon" id="cortClose" type="button" aria-label="Cerrar Cortinas"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body">
+        <p class="note" id="cortNote"></p>
+        <p class="sub-h">Ambiente</p>
+        <div class="seg wrap" role="group" aria-label="Ambiente" id="cortRoom"></div>
+        <p class="sub-h">Tipo de cortina</p>
+        <div class="tiles three" id="cortType"></div>
+        <p class="sub-h" id="cortFabH">Tela</p>
+        <div class="tiles four" id="cortFab"></div>
+        <div id="cortColW"><p class="sub-h">Color</p><div class="cort-cols" id="cortCol"></div></div>
+        <p class="sub-h">Apertura <small id="cortOpenV"></small></p>
+        <label class="cort-open" for="cortOpen"><span>Cerradas</span><input id="cortOpen" type="range" min="0" max="100" step="1" value="70"><span>Abiertas</span></label>
+        <p class="note" id="cortSum" style="color:var(--ink)"></p>
+        <div class="row"><button class="btn primary" id="cortDef" type="button" hidden>Usar para todo el edificio</button><button class="btn ghost" id="cortReset" type="button" hidden>Volver al predeterminado</button></div>
+      </div>
+    </aside>
+    <aside class="drawer" id="techPanel" hidden aria-labelledby="techTitle">
+      <div class="drawer-head"><h2 id="techTitle">Techos drywall</h2><button class="btn ghost icon" id="techClose" type="button" aria-label="Cerrar Techos"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body" id="techBody"></div>
+    </aside>
+    <div class="tz" id="techZoom" hidden></div>
+    <aside class="drawer" id="zocPanel" hidden aria-labelledby="zocTitle">
+      <div class="drawer-head"><h2 id="zocTitle">Zócalos</h2><button class="btn ghost icon" id="zocClose" type="button" aria-label="Cerrar Zócalos"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body">
+        <p class="note" id="zocNote"></p>
+        <p class="sub-h">Tipo de zócalo</p>
+        <div class="tiles three" id="zocType"></div>
+        <p class="sub-h">Color</p>
+        <div class="tiles three" id="zocColor"></div>
+        <p class="sub-h">Acabado</p>
+        <div class="tiles three" id="zocFinish"></div>
+        <div class="zsum"><span class="zsvg" id="zocSvg"></span><p class="note" id="zocSum"></p></div>
+        <div class="row"><button class="btn primary" id="zocDef" type="button" hidden>Usar para todo el edificio</button><button class="btn ghost" id="zocReset" type="button" hidden>Volver al predeterminado</button></div>
+      </div>
+    </aside>
+
+    <aside class="drawer" id="wrPanel" hidden aria-labelledby="wrTitle">
+      <div class="drawer-head"><h2 id="wrTitle">Roperos</h2><button class="btn ghost icon" id="wrClose" type="button" aria-label="Cerrar Roperos"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body" id="wrBody"></div>
+    </aside>
+
+    <aside class="drawer" id="pisoPanel" hidden aria-labelledby="pisoTitle">
+      <div class="drawer-head"><h2 id="pisoTitle">Pisos flotantes</h2><button class="btn ghost icon" id="pisoClose" type="button" aria-label="Cerrar Pisos flotantes"><svg class="ico"><use href="#i-close"/></svg></button></div>
+      <div class="drawer-body">
+        <p class="note" id="pisoNote"></p>
+        <canvas class="pcanvas" id="pisoCanvas" aria-label="Muestra 3D de las tablas: arrastrá para girar, rueda o pellizco para acercar"></canvas>
+        <p class="pcap">Muestra en 3D: arrastrá para girar, acercate para ver bisel y veta.</p>
+        <div id="pisoInfo"></div>
+        <div class="row"><button class="btn" id="pisoAB" type="button" disabled>Comparar con el anterior</button><button class="btn ghost" id="pisoReset" type="button" hidden>Volver al predeterminado</button></div>
+        <p class="sub-h">Acabado<small id="pisoCount"></small></p>
+        <div class="tiles three" id="pisoGrid"></div>
+        <div class="row"><button class="btn primary" id="pisoDef" type="button" hidden>Usar para todo el edificio</button></div>
+      </div>
+    </aside>
+
+    <div class="inspector" id="wrFloat" hidden role="region" aria-label="Ropero"></div>
+    <div class="inspector" id="selTool" hidden role="region" aria-label="Mueble seleccionado">
+      <div class="insp-main">
+        <img id="selThumb" alt="">
+        <div class="insp-id"><b id="selTitle"></b><span id="selName"></span></div>
+        <div class="insp-acts">
+          <button class="btn ghost" type="button" data-act="r90" title="Girar 90° (R)"><svg class="ico"><use href="#i-rotr"/></svg><span>Girar 90°</span></button>
+          <button class="btn ghost" type="button" data-act="dup"><svg class="ico"><use href="#i-copy"/></svg><span>Duplicar</span></button>
+          <button class="btn ghost" type="button" id="selMore" aria-expanded="false" aria-controls="selFine"><svg class="ico"><use href="#i-sliders"/></svg><span>Ajustar</span></button>
+          <button class="btn danger" type="button" data-act="del" title="Eliminar (Supr)"><svg class="ico"><use href="#i-trash"/></svg><span>Eliminar</span></button>
+        </div>
+      </div>
+      <div class="insp-luz" id="selLuz" hidden></div>
+      <div class="insp-fine" id="selFine" hidden>
+        <span>Giro fino</span>
+        <span class="grp"><button class="btn ghost icon" type="button" data-act="rl" title="Girar 15° a la izquierda" aria-label="Girar 15 grados a la izquierda"><svg class="ico"><use href="#i-rotl"/></svg></button><button class="btn ghost icon" type="button" data-act="rr" title="Girar 15° a la derecha" aria-label="Girar 15 grados a la derecha"><svg class="ico"><use href="#i-rotr"/></svg></button></span>
+        <span>Tamaño</span>
+        <span class="grp"><button class="btn ghost icon" type="button" data-act="sd" title="Más chico" aria-label="Más chico"><svg class="ico"><use href="#i-minus"/></svg></button><output id="selScale">100 %</output><button class="btn ghost icon" type="button" data-act="su" title="Más grande" aria-label="Más grande"><svg class="ico"><use href="#i-plus"/></svg></button></span>
+        <span id="selFinW" hidden>Acabado</span><span class="grp" id="selFin" hidden></span>
+        <label class="grp" id="selSwapW" hidden for="selSwap">Modelo <select id="selSwap" style="max-width:220px;min-height:32px"></select></label>
+      </div>
+    </div>
+
+    <nav class="bar" aria-label="Herramientas del visor">
+      <button class="tool quiet" id="back" type="button" hidden aria-label="Volver al edificio" title="Volver al edificio"><svg class="ico"><use href="#i-back"/></svg><span class="lbl">Edificio</span></button>
+      <label class="explode" for="explode" id="explodeL"><svg class="ico"><use href="#i-layers"/></svg>Separar pisos <input id="explode" type="range" min="0" max="5" step="0.1" value="0"></label>
+      <button class="tool" id="walkBtn" type="button" hidden><svg class="ico"><use href="#i-walk"/></svg><span class="lbl">Recorrer a pie</span></button>
+      <div class="tools" role="group" aria-label="Personalizar">
+        <button class="tool" id="furnBtn" type="button" hidden aria-pressed="false"><svg class="ico"><use href="#i-sofa"/></svg><span class="lbl">Amueblar</span></button>
+        <button class="tool" id="finBtn" type="button" hidden aria-pressed="false"><svg class="ico"><use href="#i-swatch"/></svg><span class="lbl">Acabados</span></button>
+        <button class="tool" id="estBtn" type="button" aria-pressed="false" title="Ver solo la estructura: losas, columnas, vigas y muros de hormigón"><svg class="ico"><use href="#i-estructura"/></svg><span class="lbl">Estructura</span></button>
+        <button class="tool" id="facBtn" type="button" aria-pressed="false"><svg class="ico"><use href="#i-facade"/></svg><span class="lbl">Fachada</span></button>
+        <button class="tool" id="cortBtn" type="button" aria-pressed="false"><svg class="ico"><use href="#i-cortina"/></svg><span class="lbl">Cortinas</span></button>
+        <button class="tool" id="techBtn" type="button" aria-pressed="false"><svg class="ico"><use href="#i-techo"/></svg><span class="lbl">Techos</span></button>
+        <button class="tool" id="wrBtn" type="button" hidden aria-pressed="false"><svg class="ico"><use href="#i-ropero"/></svg><span class="lbl">Roperos</span></button>
+        <button class="tool" id="pisoBtn" type="button" aria-pressed="false"><svg class="ico"><use href="#i-floor"/></svg><span class="lbl">Pisos</span></button>
+        <button class="tool" id="winBtn" type="button" aria-pressed="false"><svg class="ico"><use href="#i-window"/></svg><span class="lbl">Ventanas</span></button>
+        <button class="tool" id="doorBtn" type="button" aria-pressed="false"><svg class="ico"><use href="#i-door"/></svg><span class="lbl">Puertas</span></button>
+        <button class="tool" id="zocBtn" type="button" aria-pressed="false"><svg class="ico"><use href="#i-zocalo"/></svg><span class="lbl">Zócalos</span></button>
+        <button class="tool" id="prodBtn" type="button" aria-pressed="false"><svg class="ico"><use href="#i-bag"/></svg><span class="lbl">Productos<span class="lbl-long"> y cotización</span></span></button>
+      </div>
+      <button class="tool quiet icon-only" id="reset" type="button" title="Vista inicial"><svg class="ico"><use href="#i-frame"/></svg><span class="sr" id="resetTxt">Vista inicial</span></button>
+    </nav>
+  </div>
+
+  <aside class="panel">
+    <section class="sec">
+      <div class="proj">
+        <select id="projSel" aria-label="Proyecto"></select>
+        <button class="btn" id="libBtn" type="button"><svg class="ico"><use href="#i-book"/></svg>Catálogo</button>
+      </div>
+      <button class="btn ghost" id="upBtn" type="button" hidden style="align-self:flex-start"><svg class="ico"><use href="#i-upload"/></svg>Cargar plano</button>
+      <div id="previewBanner" class="banner" hidden>
+        <span>Vista previa sin guardar. Solo vos la estás viendo.</span>
+        <div class="acts"><button class="btn primary" id="pbSave" type="button">Guardar proyecto</button><button class="btn" id="pbEdit" type="button">Editar pisos</button><button class="btn danger" id="pbDiscard" type="button">Descartar</button></div>
+      </div>
+      <div class="stats" id="stats"></div>
+    </section>
+    <section class="sec detail" id="detail" aria-live="polite"></section>
+    <section class="sec">
+      <h2 class="sec-h">Plantas <small>nivel en m, superficie en m²</small></h2>
+      <div class="list" id="list"></div>
+    </section>
+    <details class="disc" id="sunBlk">
+      <summary>Luz y sol <small id="lightSum">Día natural</small><svg class="ico"><use href="#i-chev"/></svg></summary>
+      <div class="disc-body">
+        <div class="sunrow"><label for="lightProf" class="grow">Ambiente de luz <select id="lightProf"><option value="dia">Día natural</option><option value="tarde">Tarde cálida</option><option value="noche">Noche interior</option><option value="presentacion">Presentación inmobiliaria</option></select></label>
+          <label for="texQ">Texturas <select id="texQ"><option value="high">Alta</option><option value="medium">Media</option><option value="low">Baja</option></select></label></div>
+        <label class="tg" for="sunOn"><input type="checkbox" id="sunOn"> Simular el sol real (Cochabamba, 17,4° S)</label>
+        <div class="sunrow" id="sunCtl">
+          <label for="sunDate">Fecha <input type="date" id="sunDate"></label>
+          <label for="sunHour" class="grow">Hora <input type="range" id="sunHour" min="5.5" max="19.5" step="0.05" value="10"></label>
+          <output id="sunOut">10:00</output>
+          <button class="btn icon" id="sunPlay" type="button" aria-label="Reproducir el día">▶</button>
+        </div>
+        <p class="note" id="sunInfo"></p>
+        <div class="chips"><button class="chip" type="button" data-d="06-21">Invierno (21 jun)</button><button class="chip" type="button" data-d="12-21">Verano (21 dic)</button><button class="chip" type="button" data-d="03-21">Equinoccio</button></div>
+      </div>
+    </details>
+    <details class="disc" id="viewBlk">
+      <summary>Vista y referencias<svg class="ico"><use href="#i-chev"/></svg></summary>
+      <div class="disc-body">
+        <label class="tg" for="furnOn"><input type="checkbox" id="furnOn" checked> Mostrar muebles</label>
+        <div class="legend" id="legend"></div>
+      </div>
+    </details>
+    <section class="sec" style="margin-top:auto;padding-top:var(--s5)">
+      <p class="note" id="foot"></p>
+      <div class="acts" id="ownerActs" hidden><button class="btn danger" id="delProj" type="button"><svg class="ico"><use href="#i-trash"/></svg>Eliminar este proyecto</button></div>
+      <div class="banner danger" id="delConfirm" hidden><span>¿Eliminar el proyecto y sus planos? No se puede deshacer.</span><div class="acts"><button class="btn danger armed" id="delYes" type="button">Sí, eliminar</button><button class="btn" id="delNo" type="button">Cancelar</button></div></div>
+    </section>
+  </aside>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modalT">
+  <header>
+    <h3 id="modalT">Plano</h3>
+    <div class="acts">
+      <button class="btn icon" id="zOut" type="button" aria-label="Alejar"><svg class="ico"><use href="#i-minus"/></svg></button>
+      <button class="btn icon" id="zIn" type="button" aria-label="Acercar"><svg class="ico"><use href="#i-plus"/></svg></button>
+      <button class="btn ghost" id="mClose" type="button"><svg class="ico"><use href="#i-close"/></svg>Cerrar</button>
+    </div>
+  </header>
+  <div class="scroll"><img class="planimg" id="modalImg" alt="Plano de la planta seleccionada"></div>
+</div>
+
+<div class="modal" id="libModal" hidden role="dialog" aria-modal="true" aria-labelledby="libTitle">
+  <header>
+    <h2 id="libTitle">Catálogo</h2>
+    <div class="tabs" role="tablist" aria-label="Secciones del catálogo">
+      <button class="tab" role="tab" aria-selected="true" data-tab="m" type="button">Muebles</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="t" type="button">Pisos y azulejos</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="p" type="button">Pintura</button>
+    </div>
+    <button class="btn ghost" id="libClose" type="button"><svg class="ico"><use href="#i-close"/></svg>Cerrar</button>
+  </header>
+  <p class="note ro" id="libRO" hidden>Estás viendo el catálogo en modo lectura. Para cambiar qué se usa en el edificio o agregar elementos necesitás permiso de edición en esta página.</p>
+  <section id="libTabM" class="cat-layout">
+    <nav class="cat-nav" id="mNav" aria-label="Categorías"></nav>
+    <div class="cat-main" id="mList"></div>
+    <aside class="cat-insp is-empty" id="mInsp" aria-label="Detalle del modelo">
+      <div class="pv"><canvas id="pvCanvas" aria-label="Vista previa 3D del modelo"></canvas></div>
+      <div id="pvDetail"></div>
+      <p class="note" id="pvInfo" aria-live="polite">Elegí un modelo para verlo en 3D, con sus medidas y materiales.</p>
+      <div id="mEdit" class="edbox" hidden></div>
+      <details class="disc" id="mAdd"><summary>Agregar un modelo 3D<svg class="ico"><use href="#i-chev"/></svg></summary>
+        <div class="disc-body">
+          <form class="form" id="mForm" autocomplete="off" style="grid-template-columns:1fr 1fr">
+            <label style="grid-column:1/-1">Archivo 3D (.glb o .gltf)<input type="file" id="mFile" accept=".glb,.gltf,model/gltf-binary,model/gltf+json"></label>
+            <label>Tipo (para ubicarlo automáticamente)<select id="mType"></select></label>
+            <label>Categoría<select id="mCat"></select></label>
+            <label>Ancho real (m)<input type="number" id="mWidth" min="0.05" max="10" step="0.01" placeholder="Se toma del modelo"></label>
+            <label>Apoyo<select id="mAnchor"><option value="floor">Apoyado en el piso</option><option value="wall">Contra la pared</option><option value="ceiling">Colgado del techo</option></select></label>
+            <label>Tamaño en el edificio<select id="mFit"><option value="real">Medidas reales</option><option value="fit">Ajustar al espacio del plano</option></select></label>
+            <label>Origen<select id="mSource"><option value="blender">Blender</option><option value="higgsfield">Higgsfield</option><option value="otro">Otro</option></select></label>
+            <label style="grid-column:1/-1">Nombre<input type="text" id="mName" placeholder="Sofá esquinero gris"></label>
+            <label style="grid-column:1/-1">Crédito o licencia<input type="text" id="mCredit" placeholder="Autor, licencia CC BY 4.0"></label>
+            <div class="acts" style="grid-column:1/-1"><button class="btn primary" id="mSave" type="submit" disabled>Agregar al catálogo</button></div>
+            <p class="progress" id="mProg" aria-live="polite" style="grid-column:1/-1"></p>
+          </form>
+        </div>
+      </details>
+    </aside>
+  </section>
+  <section id="libTabT" class="sheet-body" hidden>
+    <details class="disc" id="tAdd"><summary>Agregar una textura<svg class="ico"><use href="#i-chev"/></svg></summary>
+      <div class="disc-body">
+        <form class="form" id="tForm" autocomplete="off">
+          <label>Imagen (.jpg, .png o .webp)<input type="file" id="tFile" accept="image/jpeg,image/png,image/webp"></label>
+          <label>Dónde se usa<select id="tSlot"></select></label>
+          <label>Nombre<input type="text" id="tName" placeholder="Porcelanato gris 60×60"></label>
+          <label>Medida que cubre la imagen (m)<input type="number" id="tSize" min="0.1" max="10" step="0.05" value="1.2"></label>
+          <div class="acts"><button class="btn primary" id="tSave" type="submit" disabled>Agregar textura</button></div>
+          <p class="progress" id="tProg" aria-live="polite"></p>
+        </form>
+      </div>
+    </details>
+    <div id="tList" style="display:flex;flex-direction:column;gap:var(--s6)"></div>
+  </section>
+  <section id="libTabP" class="sheet-body" hidden>
+    <section>
+      <p class="note">Color de las paredes según el tipo de ambiente. Se aplica a todos los proyectos.</p>
+      <div class="paints" id="pList"></div>
+      <div class="acts"><button class="btn primary" id="pSave" type="button">Guardar colores</button><button class="btn ghost" id="pReset" type="button">Restablecer</button></div>
+      <p class="progress" id="pProg" aria-live="polite"></p>
+    </section>
+  </section>
+</div>
+
+<div class="modal" id="upModal" hidden role="dialog" aria-modal="true" aria-label="Cargar plano">
+  <header>
+    <h3>Cargar plano</h3>
+    <div class="acts"><button class="btn ghost" id="upClose" type="button"><svg class="ico"><use href="#i-close"/></svg>Cerrar</button></div>
+  </header>
+  <div class="scroll">
+    <div class="up">
+      <section id="upStep1">
+        <h4>1 · Archivo del plano</h4>
+        <p class="note">PDF vectorial exportado desde AutoCAD o ArchiCAD, con todas las plantas en la misma lámina. Se detectan muros (relleno gris), columnas (relleno rojo), nombres de ambientes y mobiliario. Todo se procesa en tu navegador.</p>
+        <div class="form">
+          <label>Nombre del proyecto<input type="text" id="upName" placeholder="Edificio Las Palmas"></label>
+          <label>Ubicación<input type="text" id="upSub" placeholder="Zona Norte · Cochabamba"></label>
+          <label>Escala del plano<select id="upScale"><option value="50">1:50</option><option value="75">1:75</option><option value="100" selected>1:100</option><option value="125">1:125</option><option value="150">1:150</option><option value="200">1:200</option></select></label>
+          <label>Página del PDF<input type="number" id="upPage" min="1" value="1"></label>
+        </div>
+        <label class="drop" id="drop" for="upFile">
+          <b>Elegí o arrastrá el PDF aquí</b>
+          <span class="note">Hasta 20 MB</span>
+          <input type="file" id="upFile" accept="application/pdf,.pdf" hidden>
+        </label>
+        <div class="progress" id="upProg" aria-live="polite"></div>
+      </section>
+      <section id="upStep2" hidden>
+        <h4>2 · Plantas detectadas</h4>
+        <p class="note">Si una planta dice “sin núcleo”, no se encontró el ascensor para alinearla: corregí su posición con el ajuste X/Z en metros.</p>
+        <div class="cards" id="upCards"></div>
+        <h4>3 · Pisos del edificio</h4>
+        <p class="note">Cada fila es un piso. Podés usar la misma planta en varios pisos (planta tipo). Los niveles se calculan sumando las alturas desde la primera fila.</p>
+        <div class="tblwrap"><table class="rows"><thead><tr><th>Nombre</th><th>Planta</th><th>Nivel (m)</th><th>Altura (m)</th><th>Área (m²)</th><th>Descripción</th><th></th></tr></thead><tbody id="upRows"></tbody></table></div>
+        <div class="acts"><button class="btn" id="upAdd" type="button">+ Agregar piso</button><button class="btn" id="upRestack" type="button">Recalcular niveles</button></div>
+        <div class="acts"><button class="btn primary" id="upPreview" type="button">Ver en 3D</button><button class="btn" id="upSave" type="button">Guardar proyecto</button></div>
+        <div class="progress" id="upProg2" aria-live="polite"></div>
+      </section>
+    </div>
+  </div>
+</div>
+

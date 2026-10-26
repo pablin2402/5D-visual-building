@@ -1,0 +1,1024 @@
+{
+ "version": 1,
+ "materials": [
+  {
+   "id": "flot-roble-natural",
+   "name": "Roble Natural",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.56,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-roble-natural/color.webp",
+    "normal": "library/materials/flot-roble-natural/normal.webp",
+    "rough": "library/materials/flot-roble-natural/rough.webp"
+   },
+   "thumb": "library/materials/flot-roble-natural/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.06
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Roble",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "flot-roble-gris",
+   "name": "Roble Gris",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.6,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-roble-gris/color.webp",
+    "normal": "library/materials/flot-roble-gris/normal.webp",
+    "rough": "library/materials/flot-roble-gris/rough.webp"
+   },
+   "thumb": "library/materials/flot-roble-gris/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.06
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Roble",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "flot-nogal-clasico",
+   "name": "Nogal Clásico",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.5,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-nogal-clasico/color.webp",
+    "normal": "library/materials/flot-nogal-clasico/normal.webp",
+    "rough": "library/materials/flot-nogal-clasico/rough.webp"
+   },
+   "thumb": "library/materials/flot-nogal-clasico/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.06
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Nogal",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "flot-roble-blanco",
+   "name": "Roble Blanco",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.62,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-roble-blanco/color.webp",
+    "normal": "library/materials/flot-roble-blanco/normal.webp",
+    "rough": "library/materials/flot-roble-blanco/rough.webp"
+   },
+   "thumb": "library/materials/flot-roble-blanco/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.06
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Roble",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "flot-roble-ahumado",
+   "name": "Roble Ahumado",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.55,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-roble-ahumado/color.webp",
+    "normal": "library/materials/flot-roble-ahumado/normal.webp",
+    "rough": "library/materials/flot-roble-ahumado/rough.webp"
+   },
+   "thumb": "library/materials/flot-roble-ahumado/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.06
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Roble",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "flot-haya-europea",
+   "name": "Haya Europea",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.5,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-haya-europea/color.webp",
+    "normal": "library/materials/flot-haya-europea/normal.webp",
+    "rough": "library/materials/flot-haya-europea/rough.webp"
+   },
+   "thumb": "library/materials/flot-haya-europea/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.06
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Haya",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "flot-pino-nordico",
+   "name": "Pino Nórdico",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.58,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-pino-nordico/color.webp",
+    "normal": "library/materials/flot-pino-nordico/normal.webp",
+    "rough": "library/materials/flot-pino-nordico/rough.webp"
+   },
+   "thumb": "library/materials/flot-pino-nordico/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.1
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Pino",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "flot-roble-vintage",
+   "name": "Roble Vintage",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.66,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-roble-vintage/color.webp",
+    "normal": "library/materials/flot-roble-vintage/normal.webp",
+    "rough": "library/materials/flot-roble-vintage/rough.webp"
+   },
+   "thumb": "library/materials/flot-roble-vintage/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.1
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Roble",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "flot-castano",
+   "name": "Castaño",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.52,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-castano/color.webp",
+    "normal": "library/materials/flot-castano/normal.webp",
+    "rough": "library/materials/flot-castano/rough.webp"
+   },
+   "thumb": "library/materials/flot-castano/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.06
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Roble",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "flot-ebano",
+   "name": "Ébano",
+   "category": "flotantes",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1,
+    1
+   ],
+   "roughness": 0.45,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 1.0,
+   "finish": "Textura madera · Mate",
+   "source": "Shader procedural 3D en Blender (anillos, fibras y poros) horneado a atlas PBR",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/flot-ebano/color.webp",
+    "normal": "library/materials/flot-ebano/normal.webp",
+    "rough": "library/materials/flot-ebano/rough.webp"
+   },
+   "thumb": "library/materials/flot-ebano/thumb.webp",
+   "sizes": [
+    2048,
+    1024
+   ],
+   "plank": {
+    "L": 1.38,
+    "W": 0.193,
+    "T": 0.008,
+    "bevel": 0.0015,
+    "bevelH": 0.001,
+    "variants": 7,
+    "tone": 0.06
+   },
+   "specs": {
+    "espesor": "8 mm / 12 mm",
+    "medidas": "1380 × 193 mm",
+    "uso": "AC4 (residencial / comercial)",
+    "instalacion": "Click"
+   },
+   "especie": "Nogal",
+   "envIntensity": 0.55
+  },
+  {
+   "id": "roble-natural",
+   "name": "Roble natural en tablas",
+   "category": "maderas",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1.2,
+    1.14
+   ],
+   "roughness": 0.42,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Laqueado mate",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/roble-natural/color.webp",
+    "normal": "library/materials/roble-natural/normal.webp",
+    "rough": "library/materials/roble-natural/rough.webp"
+   },
+   "thumb": "library/materials/roble-natural/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "roble-miel",
+   "name": "Roble miel en tablas",
+   "category": "maderas",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1.2,
+    1.14
+   ],
+   "roughness": 0.38,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Aceitado",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/roble-miel/color.webp",
+    "normal": "library/materials/roble-miel/normal.webp",
+    "rough": "library/materials/roble-miel/rough.webp"
+   },
+   "thumb": "library/materials/roble-miel/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "nogal-tablas",
+   "name": "Nogal en tablas anchas",
+   "category": "maderas",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1.8,
+    1.2
+   ],
+   "roughness": 0.4,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Laqueado satinado",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/nogal-tablas/color.webp",
+    "normal": "library/materials/nogal-tablas/normal.webp",
+    "rough": "library/materials/nogal-tablas/rough.webp"
+   },
+   "thumb": "library/materials/nogal-tablas/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "madera-blanqueada",
+   "name": "Madera blanqueada",
+   "category": "maderas",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1.2,
+    1.14
+   ],
+   "roughness": 0.5,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Mate",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/madera-blanqueada/color.webp",
+    "normal": "library/materials/madera-blanqueada/normal.webp",
+    "rough": "library/materials/madera-blanqueada/rough.webp"
+   },
+   "thumb": "library/materials/madera-blanqueada/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "deck-exterior",
+   "name": "Deck exterior de madera",
+   "category": "exteriores",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1.2,
+    1.12
+   ],
+   "roughness": 0.75,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Aceite exterior",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/deck-exterior/color.webp",
+    "normal": "library/materials/deck-exterior/normal.webp",
+    "rough": "library/materials/deck-exterior/rough.webp"
+   },
+   "thumb": "library/materials/deck-exterior/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "porcelanato-marfil",
+   "name": "Porcelanato marfil 60×60",
+   "category": "ceramicas",
+   "surfaces": [
+    "piso",
+    "pared"
+   ],
+   "sizeM": [
+    1.2,
+    1.2
+   ],
+   "roughness": 0.22,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Satinado",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/porcelanato-marfil/color.webp",
+    "normal": "library/materials/porcelanato-marfil/normal.webp",
+    "rough": "library/materials/porcelanato-marfil/rough.webp"
+   },
+   "thumb": "library/materials/porcelanato-marfil/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "ceramica-gris",
+   "name": "Cerámica gris 30×60",
+   "category": "ceramicas",
+   "surfaces": [
+    "piso",
+    "pared"
+   ],
+   "sizeM": [
+    1.2,
+    1.2
+   ],
+   "roughness": 0.55,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Mate",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/ceramica-gris/color.webp",
+    "normal": "library/materials/ceramica-gris/normal.webp",
+    "rough": "library/materials/ceramica-gris/rough.webp"
+   },
+   "thumb": "library/materials/ceramica-gris/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "marmol-blanco",
+   "name": "Mármol blanco pulido 60×120",
+   "category": "piedras",
+   "surfaces": [
+    "piso",
+    "pared",
+    "mesada"
+   ],
+   "sizeM": [
+    1.2,
+    1.2
+   ],
+   "roughness": 0.07,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Pulido",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/marmol-blanco/color.webp",
+    "normal": "library/materials/marmol-blanco/normal.webp",
+    "rough": "library/materials/marmol-blanco/rough.webp"
+   },
+   "thumb": "library/materials/marmol-blanco/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "marmol-negro",
+   "name": "Mármol negro Marquina 60×60",
+   "category": "piedras",
+   "surfaces": [
+    "piso",
+    "pared"
+   ],
+   "sizeM": [
+    1.2,
+    1.2
+   ],
+   "roughness": 0.08,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Pulido",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/marmol-negro/color.webp",
+    "normal": "library/materials/marmol-negro/normal.webp",
+    "rough": "library/materials/marmol-negro/rough.webp"
+   },
+   "thumb": "library/materials/marmol-negro/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "travertino",
+   "name": "Travertino apomazado 40×60",
+   "category": "piedras",
+   "surfaces": [
+    "piso",
+    "pared"
+   ],
+   "sizeM": [
+    1.2,
+    1.2
+   ],
+   "roughness": 0.5,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Apomazado",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/travertino/color.webp",
+    "normal": "library/materials/travertino/normal.webp",
+    "rough": "library/materials/travertino/rough.webp"
+   },
+   "thumb": "library/materials/travertino/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "terrazo",
+   "name": "Terrazo 60×60",
+   "category": "ceramicas",
+   "surfaces": [
+    "piso"
+   ],
+   "sizeM": [
+    1.2,
+    1.2
+   ],
+   "roughness": 0.2,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Pulido",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/terrazo/color.webp",
+    "normal": "library/materials/terrazo/normal.webp",
+    "rough": "library/materials/terrazo/rough.webp"
+   },
+   "thumb": "library/materials/terrazo/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "cemento-pulido",
+   "name": "Cemento pulido",
+   "category": "ceramicas",
+   "surfaces": [
+    "piso",
+    "pared"
+   ],
+   "sizeM": [
+    2.0,
+    2.0
+   ],
+   "roughness": 0.32,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Pulido",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/cemento-pulido/color.webp",
+    "normal": "library/materials/cemento-pulido/normal.webp",
+    "rough": "library/materials/cemento-pulido/rough.webp"
+   },
+   "thumb": "library/materials/cemento-pulido/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "ceramica-blanca-pared",
+   "name": "Cerámica blanca brillante 30×60",
+   "category": "ceramicas",
+   "surfaces": [
+    "pared"
+   ],
+   "sizeM": [
+    1.2,
+    1.2
+   ],
+   "roughness": 0.08,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Brillante",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/ceramica-blanca-pared/color.webp",
+    "normal": "library/materials/ceramica-blanca-pared/normal.webp",
+    "rough": "library/materials/ceramica-blanca-pared/rough.webp"
+   },
+   "thumb": "library/materials/ceramica-blanca-pared/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "subway-blanco",
+   "name": "Subway blanco biselado 7,5×15",
+   "category": "ceramicas",
+   "surfaces": [
+    "pared"
+   ],
+   "sizeM": [
+    0.6,
+    0.6
+   ],
+   "roughness": 0.06,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Brillante",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/subway-blanco/color.webp",
+    "normal": "library/materials/subway-blanco/normal.webp",
+    "rough": "library/materials/subway-blanco/rough.webp"
+   },
+   "thumb": "library/materials/subway-blanco/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "pintura-mate",
+   "name": "Pintura látex mate",
+   "category": "pinturas",
+   "surfaces": [
+    "pared"
+   ],
+   "sizeM": [
+    1.0,
+    1.0
+   ],
+   "roughness": 0.9,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 0.35,
+   "finish": "Mate",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/pintura-mate/color.webp",
+    "normal": "library/materials/pintura-mate/normal.webp",
+    "rough": "library/materials/pintura-mate/rough.webp"
+   },
+   "thumb": "library/materials/pintura-mate/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "pintura-satinada",
+   "name": "Pintura satinada",
+   "category": "pinturas",
+   "surfaces": [
+    "pared"
+   ],
+   "sizeM": [
+    1.0,
+    1.0
+   ],
+   "roughness": 0.5,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 0.35,
+   "finish": "Satinado",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/pintura-satinada/color.webp",
+    "normal": "library/materials/pintura-satinada/normal.webp",
+    "rough": "library/materials/pintura-satinada/rough.webp"
+   },
+   "thumb": "library/materials/pintura-satinada/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "estuco",
+   "name": "Estuco a la llana",
+   "category": "pinturas",
+   "surfaces": [
+    "pared"
+   ],
+   "sizeM": [
+    1.5,
+    1.5
+   ],
+   "roughness": 0.6,
+   "metalness": 0.0,
+   "tintable": true,
+   "normalScale": 0.6,
+   "finish": "Satinado",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/estuco/color.webp",
+    "normal": "library/materials/estuco/normal.webp",
+    "rough": "library/materials/estuco/rough.webp"
+   },
+   "thumb": "library/materials/estuco/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "microcemento",
+   "name": "Microcemento gris perla",
+   "category": "pinturas",
+   "surfaces": [
+    "pared",
+    "piso"
+   ],
+   "sizeM": [
+    2.0,
+    2.0
+   ],
+   "roughness": 0.55,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 0.6,
+   "finish": "Sellado mate",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/microcemento/color.webp",
+    "normal": "library/materials/microcemento/normal.webp",
+    "rough": "library/materials/microcemento/rough.webp"
+   },
+   "thumb": "library/materials/microcemento/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  },
+  {
+   "id": "hormigon-visto",
+   "name": "Hormigón visto con encofrado",
+   "category": "exteriores",
+   "surfaces": [
+    "pared"
+   ],
+   "sizeM": [
+    2.4,
+    1.2
+   ],
+   "roughness": 0.8,
+   "metalness": 0.0,
+   "tintable": false,
+   "normalScale": 1.0,
+   "finish": "Natural",
+   "source": "Generado en Blender (procedural + baking), propio",
+   "license": "Propio · uso comercial libre",
+   "maps": {
+    "color": "library/materials/hormigon-visto/color.webp",
+    "normal": "library/materials/hormigon-visto/normal.webp",
+    "rough": "library/materials/hormigon-visto/rough.webp"
+   },
+   "thumb": "library/materials/hormigon-visto/thumb.webp",
+   "sizes": [
+    1024,
+    512
+   ]
+  }
+ ]
+}
